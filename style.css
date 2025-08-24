@@ -1,0 +1,65 @@
+ body {
+     font-family: Arial, sans-serif;
+     text-align: center;
+     background-image: url(wall.jpg);
+     padding: 40px;
+     background-repeat: no-repeat;
+     margin-top: 11%;
+     background-size: cover;
+
+ }
+ #marque{
+    color: white;
+ }
+
+ h1,h2 {
+     color: #f8f1f1;
+ }
+
+ #btn1 {
+     position: relative;
+     top: 6px;
+ }
+
+ #btn2 {
+     position: relative;
+     top: 6px;
+ }
+
+ #btn3 {
+     position: relative;
+     top: 6px;
+ }
+
+ button {
+     padding: 15px 25px;
+     margin: 10px;
+     font-size: 18px;
+     border-radius: 15px;
+     background-color: #000000;
+     color: white;
+     cursor: pointer;
+ }
+
+ button:hover {
+    color: black;
+     background-color: #f1ededab;
+     transition: 1s;
+     box-shadow: 5px 2px 8px rgb(16, 16, 16);
+
+ }
+ 
+
+ #result {
+     margin-top: 20px;
+     font-size: 32px;
+     color: #f4eeee;
+ }
+
+ .score {
+     color: white;
+     font-size: 20px;
+     margin-top: 15px;
+ }
+
+ 

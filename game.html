@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Stone Paper Sessior</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<marquee direction="right" id="marque">Let's Play Game</marquee>
+  <h1>Stone Paper Sessior Game</h1>
+  <h2>Choose any one option</h2>
+  <div class="btns">
+    <button onclick="play('stone')">Stone <img src="stone.png" alt="" id="btn1"></button>
+    <button onclick="play('paper')">Paper <img src="ppr.png" alt="" id="btn2"></button>
+    <button onclick="play('sessior')">Sessior <img src="scissor.png" alt="" id="btn3"></button>
+  </div>
+
+  <div id="result">Make your move
+  </div>
+  <div class="score" id="user-score">User Score: 0</div>
+  <div class="score" id="pc-score">PC Score: 0</div>
+  
+
+<script src="script.js"></script>
+</body>
+</html>
